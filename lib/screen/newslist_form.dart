@@ -172,7 +172,7 @@ class _NewsFormPageState extends State<NewsFormPage> {
                           // If you using chrome,  use URL http://localhost:8000
 
                           final response = await request.postJson(
-                            "http://[Your_APP_URL]/create-flutter/",
+                            "http://localhost:8000/create-flutter/",
                             jsonEncode({
                               "title": _title,
                               "content": _content,
